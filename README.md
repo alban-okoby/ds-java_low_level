@@ -5,9 +5,12 @@ Learn Java because he is - Simple, Platform Independent, Secure, Multithreaded, 
 
 ## Requirements
  To excecute all files, you have to 
- ### 1- Install your preferred IDE like Intelij, Visual Studio Code or Other you like.
+ ### 1- Install your preferred IDE 
+ like Intelij, Visual Studio Code or Other you like. <br>
+ [Vs code](https://code.visualstudio.com/download) <br>
+[intelij idea](https://www.jetbrains.com/idea/download/#section=mac)
 
-### 3- Install Java 8 or higher
+### 2- Install Java 8 or higher
 [download_java](https://www.oracle.com/java/technologies/downloads/)
 
 ## Usage 
@@ -24,7 +27,7 @@ After extract it, open your editor
 Write your first program in Java ☕.
 
 ### [01-java_basics](https://github.com/alban-okoby/java_from_zero_to_hero/tree/main/01-java_basics/src)
- Java Basics and Literals example and explanation 👇👇
+ Java Basics and Literals example and explanation 
 
 <!-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 

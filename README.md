@@ -1,7 +1,17 @@
 # java_from_zero_to_hero 🚀
 
 ## Why learn JAVA ?
-Learn Java because he is - Simple, Platform Independent, Secure, Multithreaded, Architecture-neutral, Portable and many more ...
+Learn Java because he is : 
+- [x] Simple
+- [x] Platform independent
+- [x] Secure
+- [x] Multithreaded,
+- [x] Architecture-neutra
+- [x] Portable
+- [x] Object oriented
+- [x] Distributed
+- [x] High performance
+- [x] Robust
 
 ## Requirements
  To excecute all files, you have to 
@@ -22,6 +32,7 @@ After extract it, open your editor
 ```
 
 ## Chapters
+### chapter 1 : The Basics of java ☕
 ### [00-hello_world](https://github.com/alban-okoby/java_from_zero_to_hero/tree/main/00-hello_world/src)
 
 Write your first program in Java ☕.

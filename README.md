@@ -38,8 +38,47 @@ After extract it, open your editor
 Write your first program in Java ☕.
 
 ### [01-java_basics](https://github.com/alban-okoby/java_from_zero_to_hero/tree/main/01-java_basics/src)
- Java Basics and Literals example and explanation 
+  - [Modifier Types](https://github.com/alban-okoby/java_from_zero_to_hero/tree/main/01-java_basics)
+  
+ In Java, there are two main types of modifiers:
+ 1. **Access Modifiers**: They determine the accessibility or visibility of classes, methods, variables, and constructors. There are four access modifiers in Java:
+    - `public`: The public modifier allows the class, method, or variable to be accessible from any other class or package.
+    - `private`: The private modifier restricts the accessibility of the class, method, or variable to only within the same class.
+    - `protected`: The protected modifier allows access within the same class, subclasses, and the same package.
+    - Default (no modifier): If no access modifier is specified, it is considered as default, allowing access within the same package only.
+ 
+ 2. **Non-Access Modifiers**: They provide additional functionalities or properties to classes, methods, variables, and constructors. Some common non-access modifiers include:
+    - `final`: The final modifier indicates that a class cannot be extended, a method cannot be overridden, or a variable cannot be reassigned.
+    - `static`: The static modifier is used to define class-level members (variables and methods) that can be accessed without creating an instance of the class.
+    - `abstract`: The abstract modifier is used to define abstract classes and methods. An abstract class cannot be instantiated, and an abstract method must be implemented in a subclass.
+    - `synchronized`: The synchronized modifier is used to control the access to shared resources in multithreaded environments.
+    - `volatile`: The volatile modifier is used to indicate that a variable's value may be modified by multiple threads.
+ 
+ #### Example
+  ```java
+    public class MyClass {
+        // Do something
+    }
+    
+    private class MyPrivateClass {
+        // do something
+        private boolean myBool = true;
+    }
+    
+    protected class MyProtectedClass {
+    }
 
+    public static class MyStaticClass {
+        private boolean myBool = true; // ✅
+                myBool = false; // ❌❌
+    }
+```
+ These are the main types of modifiers in Java. They provide control over accessibility, behavior, and properties of classes, methods, variables, and constructors.
+
+ 
+ 
+ 
+ 
 <!-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash

@@ -33,7 +33,7 @@ Ajouter également à votre programme une interface pour les employés à risque
 ### Collection d'employés
 Satisfait de la hiérarchie proposée, notre directeur souhaite maintenant l'exploiter pour afficher le salaire de tous ses employés ainsi que le salaire moyen.
 
-Ajoutez une classe Personnel contenant une "collection" d'employés. Il s'agira d'une collection polymorphique d'Employe - regardez le cours si vous ne voyez pas de quoi il s'agit.
+Ajoutez une classe Personnel contenant une "collection" d'employés. Il s'agira d'une collection polymorphique d'Employe - regardez la documentation sur les collections si vous ne voyez pas de quoi il s'agit.
 
 Définissez ensuite les méthodes suivantes à la classe Personnel :
 

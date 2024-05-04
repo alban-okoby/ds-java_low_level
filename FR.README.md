@@ -196,7 +196,7 @@ Les modificateurs de non d'accès fournissent des fonctionnalités ou des propri
 Ces modificateurs offrent un contrôle supplémentaire sur le comportement et les propriétés des éléments de programmation en Java.
 
 Voyons quelque exemples de démarrage
-```
+```java
   public class MyClass {
       // Faites quelque chose
   }
